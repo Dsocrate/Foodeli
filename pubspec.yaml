@@ -1,0 +1,60 @@
+name: foodelo
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^3.1.5
+  firebase_auth: ^3.3.4
+  google_fonts:
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.0.1+1
+
+
+  flutter_lints: ^2.0.0
+
+
+
+flutter_native_splash:
+  width: '100dp'
+  height: '100dp'
+  color: '#0F0C0C'
+  image: images/logo.png
+  andriod: true
+  ios: true
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/logo.png
+    - images/app.jpg
+    - images/app2.jpg
+    - images/app3.jpg
+    - images/app4.jpg
+    - images/app5.jpg
+    - images/app6.jpg
+    - images/app7.jpg
+    - images/back.jpg
+    - images/shay.JPG
+
+
+
